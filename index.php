@@ -23,6 +23,11 @@ function getFromManifest(Kirby $kirby, string $url): string
     return DS . $publicPath . ($manifest[$url] ?? $url);
 }
 
+function isUrlInternal(Kirby $kirby, string $url): bool
+{
+    return strpos($url, $kirby->site()->url()) !== false || strpos($url, "/") === '0';
+}
+
 
 Kirby::plugin('mrfd/mix', [
     'components' => [
@@ -31,10 +36,18 @@ Kirby::plugin('mrfd/mix', [
                 return $url;
             }
 
+            if (!isUrlInternal($kirby, $url)) {
+                return $url;
+            }
+
             return getFromManifest($kirby, $url);
         },
         'js' => function (Kirby $kirby, string $url, $options = null): string {
             if (!option('mrfd.mix.enable')) {
+                return $url;
+            }
+
+            if (!isUrlInternal($kirby, $url)) {
                 return $url;
             }
 
