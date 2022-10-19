@@ -1,8 +1,13 @@
 {
   "name": "mrfd/kirby-mix",
   "description": "Laravel Mix integration for Kirby 3, which hooks into the existing helper functions.",
-  "version": "1.0.1",
   "type": "kirby-plugin",
+  "version": "1.0.2",
+  "support": {
+    "issues": "https://github.com/mrfd/kirby-mix/issues",
+    "source": "https://github.com/mrfd/kirby-mix",
+    "docs": "https://github.com/mrfd/kirby-mix#readme"
+  },
   "license": "MIT",
   "authors": [
     {
