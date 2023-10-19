@@ -11,7 +11,7 @@ This plugin is free but if you use it in a commercial project please consider to
 
 ## Requirements
 
-- PHP 7.3+
+- PHP 8.0+
 - Kirby 3
 
 ## Installation
@@ -74,7 +74,7 @@ mix
 | --------------------- | ------------------- | --------------------------------------------------- |
 | `mrfd.mix.enable`     | `true`              | Activated or deactivated the Kirby Mix plugin.      |
 | `mrfd.mix.manifest`   | `mix-manifest.json` | File name including extension of the manifest file. |
-| `mrfd.mix.publicpath` | `assets`            | The public path to the assets folder.               |
+| `mrfd.mix.publicPath` | `assets`            | The public path to the assets folder.               |
 
 ## Disclaimer
 
