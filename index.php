@@ -38,7 +38,7 @@ function isInternalUrl(Kirby $kirby, string $url): bool
 {
     $url = Url::to($url);
 
-    return \strpos($url, $kirby->site()->url()) !== false || \strpos($url, "/") === '0';
+    return \strpos($url, $kirby->url()) !== false || \strpos($url, "/") === '0';
 }
 
 
