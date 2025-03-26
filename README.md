@@ -1,6 +1,6 @@
-# Kirby 3 Mix
+# Kirby Mix
 
-This plugin integrates the [Laravel Mix](https://laravel-mix.com/) manifest into [Kirby 3](https://getkirby.com), using the existing `js()` and `css()` helper functions.
+This plugin integrates the [Laravel Mix](https://laravel-mix.com/) manifest into [Kirby](https://getkirby.com), using the existing `js()` and `css()` helper functions.
 
 ## Commerical Usage
 
@@ -12,7 +12,7 @@ This plugin is free but if you use it in a commercial project please consider to
 ## Requirements
 
 - PHP 8.0+
-- Kirby 3
+- Kirby 3+
 
 ## Installation
 
@@ -82,7 +82,7 @@ This plugin is provided "as is" with no guarantee. Use it at your own risk and a
 
 ## License
 
-Kirby WebP is open-sourced software licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+Kirby Mix is open-sourced software licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 Copyright © 2020 [Marijn Roovers](https://www.mrfd.nl)
 
