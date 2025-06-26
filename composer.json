@@ -1,6 +1,7 @@
 {
   "name": "mrfd/kirby-mix",
   "description": "Laravel Mix integration for Kirby, which hooks into the existing helper functions.",
+  "homepage:": "https://github.com/mrfd/kirby-mix",
   "type": "kirby-plugin",
   "version": "1.0.4",
   "support": {
@@ -16,13 +17,19 @@
     }
   ],
   "keywords": [
+    "kirby",
+    "kirby-cms",
+    "kirby-plugin",
     "kirby3",
     "kirby3-cms",
     "kirby3-plugin",
     "kirby4",
-    "kirby4-plugin"
+    "kirby4-plugin",
+    "kirby5",
+    "kirby5-plugin"
   ],
   "require": {
+    "php": ">=8.0.0",
     "getkirby/composer-installer": "^1.1"
   },
   "config": {
